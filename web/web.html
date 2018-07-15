@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>web</title>
+	<link href="css/boostrap.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.js"></script>
+	<style type="text/css">
+	  a{color: #000;}
+	  .content-item {display:none;}
+    </style>
+</head>
+<body>
+	<div class="container">
+		 <h1 class="text-center">前端资源汇总<small class="title"></small></h1>
+		 <div class="input-group">
+          <input type="text" class="form-control search-text" placeholder="Search for...">
+          <span class="input-group-btn">
+             <button class="btn btn-default" type="button">Go!</button>
+          </span>
+     </div><!-- /input-group -->
+         <div class="content-wrap" style="margin-top:20px;">
+         	<div class="content-item html">
+         		<h3><a href="pdf/html/HTML5高级程序设计.pdf" target="_blank">HTML5高级程序设计.pdf</a></h3>
+         		<h3><a href="pdf/html/DynamicHTML权威指南.pdf" target="_blank">DynamicHTML权威指南.pdf</a></h3>
+         		<h3><a href="pdf/html/HTML5权威指南.pdf" target="_blank">HTML5权威指南.pdf</a></h3>
+         		<h3><a href="pdf/html/变幻之美Div+CSS网页布局揭秘(案例实战篇).pdf" target="_blank">变幻之美Div+CSS网页布局揭秘(案例实战篇).pdf</a></h3>
+         	</div>
+         	<div class="content-item css">
+         		<h3><a href="pdf/css/CSS Web设计高级教程  第2版.pdf" target="_blank">CSS Web设计高级教程  第2版.pdf</a></h3>
+         		<h3><a href="pdf/css/CSS禅意花园.pdf" target="_blank">CSS禅意花园.pdf</a></h3>
+         		<h3><a href="pdf/css/CSS那些事儿：掌握网页样式与CSS布局核心技术.pdf" target="_blank">CSS那些事儿：掌握网页样式与CSS布局核心技术.pdf</a></h3>
+         		<h3><a href="pdf/css/CSS商业网站布局之道.pdf" target="_blank">CSS商业网站布局之道.pdf</a></h3>
+            <h3><a href="pdf/css/精通CSS：高级Web标准解决方案.pdf" target="_blank">精通CSS：高级Web标准解决方案.pdf</a></h3>
+         	</div>
+         	<div class="content-item js">
+         		<h3><a href="pdf/js/JavaScript.DOM高级程序设计.pdf" target="_blank">JavaScript.DOM高级程序设计.pdf</a></h3>
+            <h3><a href="pdf/js/javascriptDOM编程艺术.pdf" target="_blank">javascriptDOM编程艺术.pdf</a></h3>
+            <h3><a href="pdf/js/JAVASCRIPT从入门到精通.pdf" target="_blank">JAVASCRIPT从入门到精通.pdf</a></h3>
+            <h3><a href="pdf/js/JavaScript高级程序设计.pdf" target="_blank">JavaScript高级程序设计.pdf</a></h3>
+            <h3><a href="pdf/js/JavaScript权威指南(第5版)中文版(上).pdf" target="_blank">JavaScript权威指南(第5版)中文版(上).pdf</a></h3>
+            <h3><a href="pdf/js/javascript权威指南第六版.pdf" target="_blank">javascript权威指南第六版.pdf</a></h3>
+            <h3><a href="pdf/js/JavaScript异步编程.pdf" target="_blank">JavaScript异步编程.pdf</a></h3>
+            <h3><a href="pdf/js/jQuery攻略.pdf" target="_blank">jQuery攻略.pdf</a></h3>
+            <h3><a href="pdf/js/深入浅出JavaScript.pdf" target="_blank">深入浅出JavaScript.pdf</a></h3>
+         	</div>
+          <div class="content-item web">
+            <h3><a href="pdf/web/Web标准之道.pdf" target="_blank">Web标准之道.pdf</a></h3>
+            <h3><a href="pdf/web/Web容量规划的艺术.pdf" target="_blank">Web容量规划的艺术.pdf</a></h3>
+            <h3><a href="pdf/web/编写高质量代码--Web前端开发修炼之道.pdf" target="_blank">编写高质量代码--Web前端开发修炼之道.pdf</a></h3>
+            <h3><a href="pdf/web/大巧不工-WEB前端设计修炼之道.pdf" target="_blank">大巧不工-WEB前端设计修炼之道.pdf</a></h3>
+            <h3><a href="pdf/web/高性能网站建设指南.pdf" target="_blank">高性能网站建设指南.pdf</a></h3>
+            <h3><a href="pdf/web/精通XHTML程序设计高级编程.pdf" target="_blank">精通XHTML程序设计高级编程.pdf</a></h3>
+          </div>
+         </div>
+	</div>
+	<script>
+       $(function(){
+       	  var $search = $(".search-text");
+       	  $(".btn").click(function() {
+             switch($search.val().toLowerCase()) {
+             	case "html":
+             	   $(".html").show().siblings().hide();
+                 $(".title").text(function() {
+                   var $length = $(".html h3").length;
+                   return " / HTML / " + $length + "篇";
+                 })
+             	break;
+             	case "css":
+             	   $(".css").show().siblings().hide();
+                 $(".title").text(function() {
+                   var $length = $(".css h3").length;
+                   return " / css / " + $length + "篇";
+                 })
+                break;
+                case "js":
+                   $(".js").show().siblings().hide();
+                   $(".title").text(function() {
+                     var $length = $(".js h3").length;
+                     return " / js / " + $length + "篇";
+                 })
+                break;
+                case "web":
+                   $(".web").show().siblings().hide();
+                   $(".title").text(function() {
+                     var $length = $(".web h3").length;
+                     return " / web / " + $length + "篇";  
+                   });
+                break;
+                default:
+                    $(".content-item").hide();
+                    $(".title").text(" / 你查找的内容不存在");
+             }
+             $search.val("");
+       	  })
+       })
+	</script>
+</body>
+</html>
