@@ -1,0 +1,59 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\000031}}
+body {
+  background-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\000036}}
+.navbar-default {
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\0000310}}
+.dropdown-menu {
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\0000314}}
+.content {
+  height: 257px;
+  padding: 16px 20px;
+  font-size: 18px;
+  line-height: 1.67;
+  margin-top: -20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\0000322}}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Git\/yueyue\/yueyue\/GiftShops\/css\/main\.scss}line{font-family:\0000324}}
+.fontweight {
+  font-weight: bold;
+}
+
+.banner {
+  position:relative;
+}
+
+.text {
+	position:absolute;
+	left:24%;
+	top:20%;
+	transform:rotate(-19deg);
+	font-size:14px;
+	font-weight:bold;
+	
+}
+
+#btn {
+	width:20px;
+	height:20px;
+	display:block;
+	
+}
+
