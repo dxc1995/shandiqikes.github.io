@@ -28,6 +28,7 @@ document.writeln("<ul class=\"dropdown-menu\">");
 document.writeln("  <li><a href=\"cf.html\" title=\"卫星基地卡点\" target=\"_blank\">卫星基地卡点</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"heisechengzhen.html\" target=\"_blank\">黑色城镇</a></li>");
+document.writeln("  <li><a href=\"newheise.html\" target=\"_blank\">新卫星基地</a></li>")
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"tip6.html\" target=\"_blank\">异域小镇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
