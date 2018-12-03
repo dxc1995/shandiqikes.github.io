@@ -28,10 +28,12 @@ document.writeln("<ul class=\"dropdown-menu\">");
 document.writeln("  <li><a href=\"cf.html\" title=\"卫星基地卡点\" target=\"_blank\">卫星基地卡点</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"heisechengzhen.html\" target=\"_blank\">黑色城镇</a></li>");
-document.writeln("  <li><a href=\"newheise.html\" target=\"_blank\">新黑色城镇</a></li>");
-document.writeln("  <li><a href=\"newheise.html\" target=\"_blank\">新卫星基地</a></li>")
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
-document.writeln("  <li><a href=\"tip6.html\" target=\"_blank\">异域小镇</a></li>");
+document.writeln("  <li><a href=\"newheise.html\" target=\"_blank\">新黑色城镇</a></li>");
+document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
+document.writeln("  <li><a href=\"newweixingjidi.html\" target=\"_blank\">新卫星基地</a></li>")
+document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
+document.writeln("  <li><a href=\"yiyuxiaozhen.html\" target=\"_blank\">异域小镇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"tip10.html\" target=\"_blank\">潜艇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
@@ -51,16 +53,11 @@ document.writeln("  <li><a href=\"migration.html\" target=\"_blank\"> 游走</a>
 document.writeln("</ul>");
 document.writeln("<li class=\"dropdown\">");
 document.writeln("<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\
-冲锋战术 <span class=\"caret\"></span></a>");
+步枪rush点位 <span class=\"caret\"></span></a>");
 document.writeln("<ul class=\"dropdown-menu\">");
-document.writeln("  <li><a href=\"#\">卫星基地</a></li>");
+document.writeln("  <li><a href=\"bqqianting.html\">潜艇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
-document.writeln("  <li><a href=\"tip5.html\" target=\"_blank\">A小道<span class=\"label label-danger\">\
-卫星基地</span></a></li>");
-document.writeln("  <li><a href=\"#\">中路 <span class=\"label label-danger\"> 卫星基地</span></a></li>");
-document.writeln("  <li><a href=\"#\">b通 <span class=\"label label-danger\"> 卫星基地</span></a></li>");
-document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
-document.writeln("  <li><a href=\"#\">异域小镇</a></li>");
+document.writeln("  <li><a href=\"bqheisechengzhen.html\">新黑色城镇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"#\">无</a></li>");
 document.writeln("</ul>");
