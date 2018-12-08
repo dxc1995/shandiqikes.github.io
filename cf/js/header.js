@@ -25,17 +25,13 @@ document.writeln("<li class=\"dropdown\">");
 document.writeln("<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\
 五图狙击卡点 <span class=\"caret\"></span></a>");
 document.writeln("<ul class=\"dropdown-menu\">");
-document.writeln("  <li><a href=\"cf.html\" title=\"卫星基地卡点\" target=\"_blank\">卫星基地卡点</a></li>");
-document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
-document.writeln("  <li><a href=\"heisechengzhen.html\" target=\"_blank\">黑色城镇</a></li>");
-document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"newheise.html\" target=\"_blank\">新黑色城镇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"newweixingjidi.html\" target=\"_blank\">新卫星基地</a></li>")
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"yiyuxiaozhen.html\" target=\"_blank\">异域小镇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
-document.writeln("  <li><a href=\"tip10.html\" target=\"_blank\">潜艇</a></li>");
+document.writeln("  <li><a href=\"newqianting.html\" target=\"_blank\">潜艇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("</ul>");
 document.writeln("</li>");
@@ -58,6 +54,8 @@ document.writeln("<ul class=\"dropdown-menu\">");
 document.writeln("  <li><a href=\"bqqianting.html\">潜艇</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"bqheisechengzhen.html\">新黑色城镇</a></li>");
+document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
+document.writeln("  <li><a href=\"bqweixingjidi.html\">新卫星基地</a></li>");
 document.writeln("  <li role=\"separator\" class=\"divider\"></li>");
 document.writeln("  <li><a href=\"#\">无</a></li>");
 document.writeln("</ul>");
