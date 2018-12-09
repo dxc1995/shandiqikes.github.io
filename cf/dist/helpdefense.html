@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><title>老年娱乐队</title><meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel=stylesheet type=text/css href=../css/bootstrap.css><link rel=stylesheet type=text/css href=../css/main.css><link rel=stylesheet type=text/css href=../css/video-js.css><script src=../js/header.js></script></head><body><div class=container><div class=row><div class=col-md-1></div><div class="col-xs-12 col-md-8 content"><p>协防就是辅助的角色了。但千万不要小看这个辅助的角色，这也是举足轻重的一个位置。</p><p>担任协防位置的队员，要擅长补位补枪与侦查。</p><p>这个位置的补位就是小补位(就是小范围内的补位)，一般卡点的位置是A区或B区的小道和副道。举个例子来说明一下：那黑色城镇来说，</p><p>如果狙击手在控制A大道的进攻，协防人员需要看住小道来犯的敌人，让看A打道的狙击手没有后顾之忧。如果A大道敌人进攻势头猛，狙击手敌不过需要转点时，小道协防人员就要第一时间打好道具，或者是进行火力的掩护。甚至是补掉来犯的敌人。这个位置需要意识要优于枪法。更需要和队友的默契。</p><div id=thing-with-videos><video id=example_video1 class="video-js vjs-default-skin" controls preload=auto width=335 height=264><source src="../video/1分钟教你做人 SV念旧讲述潜艇A区团队协作要领-国语1080P(限免)~1.mp4" type=video/mp4><source src="../video/1分钟教你做人 SV念旧讲述潜艇A区团队协作要领-国语1080P(限免).webm"><source src=http://media.w3.org/2010/05/sintel/trailer.ogv type=video/ogg></video></div></div><div class=col-md-3></div></div></div><script src=../js/jquery.js></script><script src=../js/jquery.fitvids.js></script><script src=../js/dropdown.js></script><script src=../js/collapse.js></script><script src=../js/modal.js></script><script src=../js/video.js></script><script>
+  videojs.options.flash.swf = "video-js.swf";
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#thing-with-videos").fitVids();
+  });
+
+  var myPlayer = videojs('example_video1');     
+  videojs("example_video1").ready(function(){
+      var myPlayer = this;
+      myPlayer.play();     
+  });
+</script></body></html>
